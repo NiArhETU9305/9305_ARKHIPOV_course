@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include "definations.h"
-#include "card_functions.h"
 #include "list_functions.h"
 #include "struct_functions.h"
 
