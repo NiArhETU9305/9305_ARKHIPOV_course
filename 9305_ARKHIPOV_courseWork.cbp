@@ -31,12 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="card_functions.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="card_functions.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
 		<Unit filename="definations.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
