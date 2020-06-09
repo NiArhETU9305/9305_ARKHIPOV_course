@@ -20,20 +20,6 @@ typedef struct
     struct list_element *last;
 } l_head;
 
-// categories list
-typedef struct
-{
-    struct _category *first;
-} category_head;
-
-typedef struct _category
-{
-    float sum;
-    char* name;
-    unsigned type;
-    struct _category *next;
-} category;
-
 // transaction card
 typedef struct transaction_card
 {
