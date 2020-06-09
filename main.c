@@ -121,13 +121,6 @@ int main()
             else printf("Wrong num\n");
             menu = -1; // for next work;
             break;
-            /* case 7
-            cat_h = (category_head*) malloc(sizeof(category_head));
-            card_category_sum(cat_h, p_head);
-            card_category_report(cat_h);
-            menu = -1;
-            break;
-            */
         case 7: // exit
             printf("Data saving...");
             if((df = fopen("data.csv", "w")) == NULL) // file open with rewrite
